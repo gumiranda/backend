@@ -7,7 +7,7 @@
 *
  */
 package io.spring.aula.natan.config;
-
+ 
 import io.spring.aula.natan.entity.Perfil;
 import io.spring.aula.natan.entity.Usuario;
 import io.spring.aula.natan.repository.PerfilRepository;
