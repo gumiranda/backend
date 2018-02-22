@@ -59,7 +59,6 @@ public class UsuarioController {
     public Usuario salvar(@RequestBody Usuario usuario) {
         return this.usuarioService.salvarUsuario(usuario);
     }
-    
 
     @RequestMapping(value = "/usuario", method = RequestMethod.PUT)
     public Usuario editar(@RequestBody Usuario usuario) {
